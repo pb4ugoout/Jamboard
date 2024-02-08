@@ -11,7 +11,7 @@ Raspt Interposer and touch interface board: https://drive.google.com/file/d/1Za8
 
 The large board in the middle right is the main control unit for the whole display. Fundamentally, this is a large carrier board for a standalone nVidia Jetson TX1 SoC module. The Jetson module can be see as the aluminum rectange in the upper left of the carrier. Prior to removal by me, the TX1 had a large heatsink installed. There was copious thermal compound between the SoC and a full cover aluminum plate. Two 8mm heat pipes are connecting the plate to the large heat sink. There are lots of connections to and from this board along with some unused connections both visible and hidden under the shield. There are two small momentary switches on the board as well. One of these is system reset button. I'm not sure what is under the large heat sink as it's screwed in from the opposite side of the carrier and I haven't yet removed it. The photos are shown with the shield removed. Under the shield is an additional HDMI port that is not accessible with the shield installed. The purpose is as of yet unknown. There are 2 white 4-pin headers that are also unused with an unknown purpose at this time. I'm hopeful that one of them is UART.
 
-Extended details of the carrier board are a work in progress and are documented here:
+Extended details of the carrier board are a work in progress and are documented here: https://github.com/pb4ugoout/Jamboard/blob/main/Carrier%20Details
 
 Carrier overall: https://drive.google.com/file/d/1S5Z0rVGYEBesK3tRBSCNLX2U5v80IxRw/view?usp=drive_link
 Carrier close: https://drive.google.com/file/d/19TeZ02iUjP2EvTp_rr_tbm6lKXTzAiFf/view?usp=drive_link
