@@ -23,7 +23,7 @@ The board on the right is for IO. It's taking in data from the USB type-c and ty
 Side IO PCB: https://drive.google.com/file/d/1k58KSxj27y7Dliuek8TXCKGVEYszP2xb/view?usp=drive_link
 External ports: https://drive.google.com/file/d/1ZdLQaWgu1V_OW25wncx6KEtmHtJ86UtJ/view?usp=drive_link
 
-In the bottom middle is an additional IO interface. It's visible through all 3 rear panel covers. It's similar to the side IO board but it contains the main IEC power input connection, gigabit ethernet, a TOSLINK optical audio output, an additional HDMI input, and a micro-b USB port. This USB port is connected directly to the carrier board and serves as the recovery port connected directly to the Jetson module.
+In the bottom middle is an additional IO interface. It's visible through all 3 rear panel covers. It's similar to the side IO board but it contains the main IEC power input connection, gigabit ethernet, a TOSLINK optical audio output, an additional HDMI input, and a micro-b USB port. The ethernet, USB, HDMI ports are connected directly back to the carrier with off the shelf patch cables. The TOSLINK port is locally converted to audio and fed into the carrier along with other connections via an 8-pin connector between the carrier and the IO pcb. This USB port is connected directly to the carrier board and serves as the recovery port connected directly to the Jetson module.
 
 Rear IO: https://drive.google.com/file/d/17picj62JNHwqehpzofQrLfKtw86zbQJA/view?usp=drive_link
 
