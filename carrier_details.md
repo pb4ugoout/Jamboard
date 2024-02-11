@@ -1,6 +1,7 @@
-This document is a work in progress.
+# This document is a work in progress.
 
 
+# Jamboard Carrier
 
 The carrier in the Jamboard is using an off the shelf nVidia Jetson TX1 module for compute resources. Google has very kindly fused the SoC so it is unfortunately useless for any other purpose unless their RSA keys can be brute forced. However, this module can be removed and replaced very easily once you gain access to the internals of the Jamboard. The currently available version of L4T Ubuntu provided by nVidia Jetpack 4.6.4 works when flashed to a Jetson TX1 or TX2. I was unable to get the touchscreen working, but I didn't put much time into sourcing a driver for it.
 
@@ -8,7 +9,9 @@ The carrier board does provide a recovery mechanism for the installed Jetson mod
 
 The carrier appears to be a custom board made by Google. There are multiple input and outputs for the various devices inside the Jamboard. I will attempt to detail each connector and what I find about them.
 
-Carrier Board with labels: https://drive.google.com/file/d/1vJ6Y775PLcUaRsiny46rs9BGhy0ZysPJ/view?usp=drive_link
+![Labels](assets/carrier_labeled.jpeg)
+
+# IO Details
 
 A.) 400-pin Samtec expansion connector for the Jetson TX module
 B.) 32-pin dual row JST connector between the carrier and the main PSU board (detailed elsewhere)
