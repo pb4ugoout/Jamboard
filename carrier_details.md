@@ -42,7 +42,7 @@ Z.) Unknown IC under large heat sink.
 
 # Individual Pinouts
 
-B.) See here: ![Power Breakout](power_header.md) 
+B.) See here: [Power Breakout](power_header.md) 
 E.)
   1.)
   2.)
