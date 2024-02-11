@@ -1,7 +1,5 @@
-# This document is a work in progress.
-
-
 # Jamboard Carrier
+## This document is a work in progress
 
 The carrier in the Jamboard is using an off the shelf nVidia Jetson TX1 module for compute resources. Google has very kindly fused the SoC so it is unfortunately useless for any other purpose unless their RSA keys can be brute forced. However, this module can be removed and replaced very easily once you gain access to the internals of the Jamboard. The currently available version of L4T Ubuntu provided by nVidia Jetpack 4.6.4 works when flashed to a Jetson TX1 or TX2. I was unable to get the touchscreen working, but I didn't put much time into sourcing a driver for it.
 
@@ -11,7 +9,7 @@ The carrier appears to be a custom board made by Google. There are multiple inpu
 
 ![Labels](assets/carrier_labeled.jpeg)
 
-# IO Details
+## IO Details
 
 A.) 400-pin Samtec expansion connector for the Jetson TX module
 
@@ -65,134 +63,134 @@ Y.) 2-pin jumper of unknown purpose.
 
 Z.) Unknown IC under large heat sink.
 
-# Individual Pinouts
+## Individual Pinouts
 
-B.) See here: [Power Breakout](power_header.md) 
+### B.) See here: [Power Breakout](power_header.md) 
 
-E.)
+### E.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-  6.)
+    6.)
   
-  7.)
+    7.)
   
-  8.)
+    8.)
   
-F.)
+### F.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-  6.)
+    6.)
   
-  7.)
+    7.)
   
-  8.)
+    8.)
   
-N.)
+### N.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-  6.)
+    6.)
   
-  7.)
+    7.)
   
-  8.)
+    8.)
   
-  9.)
+    9.)
   
-  10.)
+    10.)
   
-  11.)
+    11.)
   
-  12.)
+    12.)
   
-O.)
+### O.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-  6.)
+    6.)
   
-R.)
+### R.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-U.)
+### U.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-V.)
+### V.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-W.)
+### W.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
   
-  3.)
+    3.)
   
-  4.)
+    4.)
   
-  5.)
+    5.)
   
-  6.)
+    6.)
   
-Y.)
+### Y.)
 
-  1.)
+    1.)
   
-  2.)
+    2.)
