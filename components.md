@@ -8,13 +8,13 @@ The internals are relatively simple consisting of power, input, and output. It l
 
 The two beige PCBs are power supplies. The larger one is the main supply for all of the components in the unit. The larger supply feeds the smaller supply via a 14-pin single stack connector. The smaller supply is dedicated to the backlight of the display panel.
 
-## Raspt Interposer and Touch Interface Board
+## Rapt Controller, Interposer, and Sensor Boards
 
-Along each edge there is a small PCB connected to three shielded ribbon cables. The inner cables are connected to the lowest visible PCB. The outer cables are connected to the outer glass over the LCD panel. That PCB is connected to the PCB just to the right that is covered by the aluminum heat sink. These 6 PCBs are the Raspt touch control system. They are enabling the touchscreen and pen functionality on the display. I believe the board under the heat sink is the main processor, while the board to the left is just the interposer for the 4 boards along the perimeter. The interposer is connected to the controller via a 4-pin cable for data (it appears to be USB) and a power cable. The main controller is connected to the carrier board with the via a power connection and a similar USB data cable that is also broken out into another connector with more wires. I'm not certain what this is but it could be power signaling based on other observations around the unit.
+The Jamboard is using a Rapt Optical Touch system. Along each edge, of the back, there is a small PCB connected to three shielded ribbon cables. The inner cables are connected to the lowest visible PCB (the interposer). The outer cables are routed out to the edges of the glass. Along the inside edge of the glass are a series of optical sensors connected via these cables to the 4x small boards around unit. The interposer PCB is connected to the PCB just to the right that is covered by the aluminum heat sink, the main controller. These 6 PCBs are the Rapt optical touch solution. They are enabling the touchscreen and pen functionality on the display. I believe the board under the heat sink is the main processor, while the board to the left is just the interposer for the 4 boards along the perimeter. The interposer is connected to the controller via a 4-pin cable for data (it appears to be USB) and a power cable. The main controller is connected to the carrier board with the via a power connection and a similar USB data cable that is also broken out into another connector with more wires. I'm not certain what this is but it could be power signaling based on other observations around the unit.
 
-![Raspt Controller](assets/raspt-controller.jpeg)
+![Rapt Controller](assets/raspt-controller.jpeg)
 
-![Raspt Interposer](assets/raspt-interposer.jpeg)
+![Rapt Interposer](assets/raspt-interposer.jpeg)
 
 ## Carrier Board
 
