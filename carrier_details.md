@@ -55,7 +55,7 @@ U.) 4-pin single row JST of unknown purpose.
 
 V.) 4-pin single row JST of unknown purpose.
 
-W.) 6-pin single row JST. Runs over to a couple of level shifters. Still unsure what function this serves. I can't figure out why you would add a header that only serves to translate for an external device with no connection back to anything on the board.
+W.) 6-pin single row JST. Runs over to a couple of level shifters.
 
 X.) HDMI connector of unknown purpse.
 
