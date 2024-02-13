@@ -55,7 +55,7 @@ U.) 4-pin single row JST of unknown purpose.
 
 V.) 4-pin single row JST of unknown purpose.
 
-W.) 6-pin single row JST. Runs over to a couple of level shifters.
+W.) 6-pin single row JST. UART0 - Debug
 
 X.) HDMI connector of unknown purpse.
 
@@ -175,19 +175,19 @@ Z.) Unknown IC under large heat sink. This is a video processor of some kind. It
   
     4.)
   
-### W.) Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
+### W.) UART0 - DEBUG - Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
 
     1.) Pin 7 - VCC(B) on both shifters
     
-    2.) Pin 8 - B1 on U4503
+    2.) Pin 8 - B1 on U4503 - A1 to H12 (UART-Rx)
   
-    3.) Pin 8 - B1 on U4502
+    3.) Pin 8 - B1 on U4502 - A1 to G12 (UART0-Tx)
   
     4.) GND
   
-    5.) Pin 1 - B2 on U4503
+    5.) Pin 1 - B2 on U4503 - A2 to G11 (UART0-RTS)
   
-    6.) Pin 1 - B2 on U4502
+    6.) Pin 1 - B2 on U4502 - A2 to H11 (UART0-CTS)
   
 ### Y.)
 
