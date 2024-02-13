@@ -43,7 +43,7 @@ O.) 6-pin JST supplying power from the carrier to the Raspt controller PCB.
 
 P.) 2-pin JST for the Power/Status LED at the bottom front of the Jamboard.
 
-Q.) Momentary switch with an unknown function.
+Q.) Momentary switch. Connects to item "Z". Traces through a pull down down resistor and then into a via. Comes out of the back of the board near Z and then heads into another via under the IC.
 
 R.) 5-pin single row JST connected to the power button control PCB.
 
@@ -55,13 +55,13 @@ U.) 4-pin single row JST of unknown purpose.
 
 V.) 4-pin single row JST of unknown purpose.
 
-W.) 6-pin single row JST of unknown purpose.
+W.) 6-pin single row JST. Runs over to a couple of level shifters. Still unsure what function this serves. I can't figure out why you would add a header that only serves to translate for an external device with no connection back to anything on the board.
 
 X.) HDMI connector of unknown purpse.
 
 Y.) 2-pin jumper of unknown purpose.
 
-Z.) Unknown IC under large heat sink.
+Z.) Unknown IC under large heat sink. This is a video processor of some kind. It handles sending video to the LCD from inputs K and L.
 
 ## Individual Pinouts
 
@@ -175,19 +175,19 @@ Z.) Unknown IC under large heat sink.
   
     4.)
   
-### W.)
+### W.) Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
 
-    1.)
+    1.) Pin 7 - VCC(B) on both shifters
+    
+    2.) Pin 8 - B1 on U4503
   
-    2.)
+    3.) Pin 8 - B1 on U4502
   
-    3.)
+    4.) GND
   
-    4.)
+    5.) Pin 1 - B2 on U4503
   
-    5.)
-  
-    6.)
+    6.) Pin 1 - B2 on U4502
   
 ### Y.)
 
