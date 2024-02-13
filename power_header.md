@@ -16,11 +16,11 @@ Pin 1 is the top leftmost pin in the connector
 
 6.) GND
 
-7.) +12V_TOUCH (Goes to port O to provide power out to the Rapt controller)
+7.) +12V_TOUCH
 
 8.) GND
 
-9.) +12V_TOUCH (Goes to port O to provide power out to the Rapt controller)
+9.) +12V_TOUCH
 
 10.) +12V_TCON
 
@@ -64,8 +64,8 @@ Pin 1 is the top leftmost pin in the connector
 
 30.) DIM
 
-31.) NC
+31.) NC (Traces to GND)
 
 ![main_pwr_pinout](assets/main_pwr_pinout.jpeg)
 
-32.) NC
+32.) NC (Traces to GND)
