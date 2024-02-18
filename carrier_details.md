@@ -157,23 +157,23 @@ Z.) Unknown IC under large heat sink. This is a video processor of some kind. It
   
 ### U.)
 
-    1.)
+    1.) 
   
     2.)
   
     3.)
   
-    4.)
+    4.) GND
   
 ### V.)
 
-    1.)
+    1.) 
   
     2.)
   
     3.)
   
-    4.)
+    4.) GND
   
 ### W.) UART0 - DEBUG - Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
 
