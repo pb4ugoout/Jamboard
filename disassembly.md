@@ -30,7 +30,7 @@ Closeup of the perimeter clips:
 
 Closeup of the inner clips:
 
-![Large Clips](https://drive.google.com/file/d/1j5QwjwPOr_WTSeEFmefUJJUfxWtylyHg/view?usp=drive_link)
+![Large Clips](assets/large-clips.jpeg)
 
 Closeup of the button panel location:
 
