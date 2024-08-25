@@ -57,7 +57,7 @@ V.) 4-pin single row JST of unknown purpose.
 
 W.) 6-pin single row JST. UART0 - Debug
 
-X.) HDMI connector of unknown purpse.
+X.) HDMI Video Out (possible mirror of eDP on label M).
 
 Y.) 2-pin jumper of unknown purpose.
 
