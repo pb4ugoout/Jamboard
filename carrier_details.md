@@ -69,13 +69,13 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
 
 ### E.)
 
-    1.)
+    1.) VCC - 24.5v
   
-    2.)
+    2.) NC
   
-    3.)
+    3.) VCC - 24.5V
   
-    4.)
+    4.) GND
   
     5.)
   
