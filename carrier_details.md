@@ -21,7 +21,7 @@ D.) 15-pin ribbon cable headed under the plastic side IO shroud. (Need to invest
 
 E.) 8-pin dual row JST connected to the side IO PCB. Only 7 pins are utilized and the brown wire is not twisted with the rest of the wires.
 
-F.) 8-pin single row JST connected to the rear IO PCB. All 8 pins are populated and the black wire is not twiseted with the rest.
+F.) 8-pin single row JST connected to the rear IO PCB. All 8 pins are populated and the black wire is not twisted with the rest.
 
 G.) Micro-USB port directly connect to the Jetson module. This is connected to the rear IO module with an uncommon, but, off the shelf usb micro-b to micro-b cable.
 
@@ -37,9 +37,9 @@ L.) HDMI input connected to the side IO PCB.
 
 M.) 51-pin eDP output directly connected to the LCD panel.
 
-N.) 12-pin single row JST connected to the Raspt touch control pcb. It splits off at the controller into a 6-pin single row JST for unknown purposes and a 5-pin single row JST for what looks like USB data.
+N.) 12-pin single row JST connected to the Rapt Hazeldos/Hazelred touch control pcb. It splits off at the controller into a 6-pin single row JST for unknown purposes and a 5-pin single row JST for what looks like USB data with two ground wires.
 
-O.) 6-pin JST supplying power from the carrier to the Raspt controller PCB.
+O.) 6-pin JST supplying power from the carrier to the Rapt controller PCB.
 
 P.) 2-pin JST for the Power/Status LED at the bottom front of the Jamboard.
 
@@ -55,7 +55,7 @@ U.) 4-pin single row JST. I2C connection to IC T.
 
 V.) 4-pin single row JST. I2C connection to IC Z.
 
-W.) 6-pin single row JST. UART0. Doesn't output anything from the stock Jamboard Jetson module. Tested working from other modules.
+W.) 6-pin single row JST. UART0. Doesn't output anything from the stock Jamboard Jetson module. Tested working from other modules. UART is enabled in the bootloader but disabled in the config. 
 
 X.) HDMI Video Out (possible mirror of eDP on label M).
 
