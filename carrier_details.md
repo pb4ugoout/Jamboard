@@ -43,17 +43,17 @@ O.) 6-pin JST supplying power from the carrier to the Raspt controller PCB.
 
 P.) 2-pin JST for the Power/Status LED at the bottom front of the Jamboard.
 
-Q.) Momentary switch. Connects to item "Z". Traces through a pull down down resistor and then into a via. Comes out of the back of the board near Z and then heads into another via under the IC.
+Q.) Momentary switch. Connects to item "Z". Traces through a pull down down resistor and then into a via. Comes out of the back of the board near Z and then heads into another via under the IC. Also splits off at the pull down resistor to the collector pads for a transistor that wasn't installed.
 
 R.) 5-pin single row JST connected to the power button control PCB.
 
 S.) 4-pin single row JST connected to the left and right speakers mounted at the bottom of the Jamboard.
 
-T.) ST Micro STA339BW 2.1ch Digital Audio System on a chip. (https://www.st.com/resource/en/datasheet/sta339bw.pdf)
+T.) [ST Micro STA339BW](assets/STA339BW.jpeg) 2.1ch Digital Audio System on a chip. (https://www.st.com/resource/en/datasheet/sta339bw.pdf)
 
-U.) 4-pin single row JST of unknown purpose.
+U.) 4-pin single row JST. I2C connection to IC T.
 
-V.) 4-pin single row JST of unknown purpose.
+V.) 4-pin single row JST. I2C connection to IC Z.
 
 W.) 6-pin single row JST. UART0 - Debug
 
@@ -143,31 +143,31 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     6.)
   
-### R.)
+### R.)Side Panel Buttons
 
-    1.)
+    1.) Power Button
   
-    2.)
+    2.) Vol - Button
   
-    3.)
+    3.) Vol + Button
   
-    4.)
+    4.) Input Button
   
-    5.)
+    5.) GND
   
-### U.)
+### U.) Unknown protocol interface connected to IC T (T doesn't have UART only I2C but pins 2 and 3 do not trace out to the corresponding pins on IC T)
 
-    1.) 
+    1.) VDD_DIG 3.3V (Digital Supply Voltage)
   
-    2.)
+    2.) 
   
     3.)
   
     4.) GND
   
-### V.)
+### V.) Unknown protocol interface connected to IC Z. (Unable to trace pins 2 and 3 as they are somewhere in the BGA under IC Z)
 
-    1.) 
+    1.) 5.2V
   
     2.)
   
@@ -177,7 +177,7 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
 ### W.) UART0 - DEBUG - Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
 
-    1.) Pin 7 - VCC(B) on both shifters
+    1.) Pin 7 - VCC(B) on both shifters (3.3v)
     
     2.) Pin 8 - B1 on U4503 - A1 to H12 (UART0-Tx)
   
