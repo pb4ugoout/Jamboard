@@ -11,7 +11,7 @@ The carrier appears to be a custom board made by Google. There are multiple inpu
 
 ## IO Details
 
-A.) 400-pin Samtec expansion connector for the Jetson TX module
+A.) 400-pin Samtec expansion connector for the Jetson TX module (https://github.com/pb4ugoout/Jamboard/blob/main/assets/JetsonTX1_OEM_Product_DesignGuide_09172018.pdf)
 
 B.) 32-pin dual row JST connector between the carrier and the main PSU board (detailed elsewhere)
 
@@ -49,7 +49,7 @@ R.) 5-pin single row JST connected to the power button control PCB.
 
 S.) 4-pin single row JST connected to the left and right speakers mounted at the bottom of the Jamboard.
 
-T.) Unknown IC under a heat sink.
+T.) ST Micro STA339BW 2.1ch Digital Audio System on a chip. (https://www.st.com/resource/en/datasheet/sta339bw.pdf)
 
 U.) 4-pin single row JST of unknown purpose.
 
@@ -61,7 +61,7 @@ X.) HDMI Video Out (possible mirror of eDP on label M).
 
 Y.) 2-pin jumper of unknown purpose.
 
-Z.) Unknown IC under large heat sink. This is a video processor of some kind. It handles sending video to the LCD from inputs K and L.
+Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a datasheet or any details about this chip but we know it handles sending video to the LCD from inputs K and L.
 
 ## Individual Pinouts
 
