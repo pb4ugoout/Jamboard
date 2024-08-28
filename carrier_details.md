@@ -179,9 +179,9 @@ Z.) Unknown IC under large heat sink. This is a video processor of some kind. It
 
     1.) Pin 7 - VCC(B) on both shifters
     
-    2.) Pin 8 - B1 on U4503 - A1 to H12 (UART-Rx)
+    2.) Pin 8 - B1 on U4503 - A1 to H12 (UART0-Tx)
   
-    3.) Pin 8 - B1 on U4502 - A1 to G12 (UART0-Tx)
+    3.) Pin 8 - B1 on U4502 - A1 to G12 (UART0-Rx)
   
     4.) GND
   
