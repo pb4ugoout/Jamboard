@@ -55,7 +55,7 @@ U.) 4-pin single row JST. I2C connection to IC T.
 
 V.) 4-pin single row JST. I2C connection to IC Z.
 
-W.) 6-pin single row JST. UART0 - Debug
+W.) 6-pin single row JST. UART0. Doesn't output anything from the stock Jamboard Jetson module. Tested working from other modules.
 
 X.) HDMI Video Out (possible mirror of eDP on label M).
 
