@@ -67,25 +67,25 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
 
 ### B.) See here: [Power Breakout](power_header.md) 
 
-### E.)
+### E.) Power and GPIO to Side IO Module
 
     1.) VCC - 24.5v
   
-    2.) NC
+    2.) No wire in the corresponding cable - Traces back to Pin 4 on Header F Rear IO Module
   
     3.) VCC - 24.5V
   
     4.) GND
   
-    5.)
+    5.) Unknown - Runs over to Pin 1 on Header F (Rear IO Module)
   
     6.)
   
-    7.)
+    7.) Goes to U4404 (Level Shifter) then to B6 on the SoC - I2C_PM_DAT
   
-    8.)
+    8.) Goes to U4404 (Level Shifter) then to A6 on the SoC - I2C_PM_CLK
   
-### F.)
+### F.) Connected to Rear IO Module
 
     1.)
   
@@ -93,7 +93,7 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     3.)
   
-    4.)
+    4.) Unknown - Traces back to Pin 2 on Header E (Side IO Module)
   
     5.)
   
@@ -103,7 +103,7 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     8.)
   
-### N.)
+### N.) Rapt Touch Controller Communication
 
     1.)
   
@@ -177,17 +177,17 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
 ### W.) UART0 - DEBUG - Runs over to two NXP NTS0102GD bi-directional level shifters (U4502 and U4503).
 
-    1.) Pin 7 - VCC(B) on both shifters (3.3v)
+    1.) VCC(B) on both shifters (3.3v)
     
-    2.) Pin 8 - B1 on U4503 - A1 to H12 (UART0-Tx)
+    2.) B1 on U4503 - A1 to H12 (UART0-Tx)
   
-    3.) Pin 8 - B1 on U4502 - A1 to G12 (UART0-Rx)
+    3.) B1 on U4502 - A1 to G12 (UART0-Rx)
   
     4.) GND
   
-    5.) Pin 1 - B2 on U4503 - A2 to G11 (UART0-RTS)
+    5.) B2 on U4503 - A2 to G11 (UART0-RTS)
   
-    6.) Pin 1 - B2 on U4502 - A2 to H11 (UART0-CTS)
+    6.) B2 on U4502 - A2 to H11 (UART0-CTS)
   
 ### Y.)
 
