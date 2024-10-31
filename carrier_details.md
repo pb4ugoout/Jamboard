@@ -43,7 +43,7 @@ O.) 6-pin JST supplying power from the carrier to the Rapt controller PCB.
 
 P.) 2-pin JST for the Power/Status LED at the bottom front of the Jamboard.
 
-Q.) Momentary switch. Connects to item "Z". Traces through a pull down down resistor and then into a via. Comes out of the back of the board near Z and then heads into another via under the IC. Also splits off at the pull down resistor to the collector pads for a transistor that wasn't installed.
+Q.) Momentary switch. Connects to item "Z". Traces through a pull down down resistor and then into a via. Comes out of the back of the board near Z and then heads into another via under the IC. Also splits off at the pull down resistor to the collector pads for a transistor that wasn't installed. Unconfirmed but this is likely a reset button for the Milestone processor (Z). It could also be an input select button. Need to test further on a working unit.
 
 R.) 5-pin single row JST connected to the power button control PCB.
 
