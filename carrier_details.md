@@ -131,17 +131,17 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
 ### O.)
 
-    1.)
+    1.) Vcc - 11.8V
   
-    2.)
+    2.) Vcc - 11.8V
   
-    3.)
+    3.) Vcc - 11.8V
   
-    4.)
+    4.) GND
   
-    5.)
+    5.) GND
   
-    6.)
+    6.) GND
   
 ### R.)Side Panel Buttons
 
