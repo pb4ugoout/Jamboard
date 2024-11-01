@@ -17,7 +17,7 @@ B.) 32-pin dual row JST connector between the carrier and the main PSU board (de
 
 C.) Momentary switch that functions as a system reset switch
 
-D.) 15-pin ribbon cable headed under the plastic side IO shroud. (Need to investigate further).
+D.) 15-pin FFC/FPC ribbon cable connected to an NFC module behind the shroud for the side IO module. 
 
 E.) 8-pin dual row JST connected to the side IO PCB. Only 7 pins are utilized and the brown wire is not twisted with the rest of the wires.
 
@@ -71,15 +71,15 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
 
     1.) VCC - 24.5v
   
-    2.) No wire in the corresponding cable - Traces back to Pin 4 on Header F Rear IO Module
+    2.) GND but NC - No wire in the corresponding cable
   
     3.) VCC - 24.5V
   
     4.) GND
   
-    5.) Unknown - Runs over to Pin 1 on Header F (Rear IO Module)
+    5.) Digital Audio from HDMI Input - Parallel to Port 1 on Header F
   
-    6.)
+    6.) 
   
     7.) Goes to U4404 (Level Shifter) then to B6 on the SoC - I2C_PM_DAT
   
@@ -87,21 +87,21 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
 ### F.) Connected to Rear IO Module
 
-    1.)
+    1.) Digital Audio from HDMI Input - Parallel to Port 5 on Header E
   
-    2.)
+    2.) TOSLINK - Vin (Data Input)
   
-    3.)
+    3.) TOSLINK - Vcc (Supply Voltage)
   
-    4.) Unknown - Traces back to Pin 2 on Header E (Side IO Module)
+    4.) GND
   
-    5.)
+    5.) Ethernet port Activity LED
   
-    6.)
+    6.) Ethernet Port Link LED 
   
-    7.)
+    7.) Ethernet port Link LED
   
-    8.)
+    8.) Ethernet Port Activity LED
   
 ### N.) Rapt Touch Controller Communication
 
