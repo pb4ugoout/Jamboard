@@ -105,15 +105,15 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
 ### N.) Rapt Touch Controller Communication
 
-    1.)
+    1.) USB Power - +5V
   
-    2.)
+    2.) USB Data -
   
-    3.)
+    3.) USB Data +
   
-    4.)
+    4.) GND
   
-    5.)
+    5.) GND
   
     6.)
   
