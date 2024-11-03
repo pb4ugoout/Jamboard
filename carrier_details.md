@@ -55,7 +55,7 @@ U.) 4-pin single row JST. Possibly goes to IC T
 
 V.) 4-pin single row JST. Possibly goes to IC Z.
 
-W.) 6-pin single row JST. UART0. Doesn't output anything from the stock Jamboard Jetson module. Tested working from other modules. UART is enabled in the bootloader but disabled in the config. 
+W.) 6-pin single row JST. UART0. Enabled in stock JB bootloader but disable in ODMDATA Tested working from other modules. UART is enabled in the bootloader but disabled in the config. 
 
 X.) HDMI Video Out - Confirmed that this is the video output from the Jetson. It connects to the HDMI port here and then passes through it down to the Milestone processor (label Z).
 
