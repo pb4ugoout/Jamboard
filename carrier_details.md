@@ -51,9 +51,9 @@ S.) 4-pin single row JST connected to the left and right speakers mounted at the
 
 T.) [ST Micro STA339BW](assets/STA339BW.jpeg) 2.1ch Digital Audio System on a chip. (https://www.st.com/resource/en/datasheet/sta339bw.pdf)
 
-U.) 4-pin single row JST. I2C connection to IC T.
+U.) 4-pin single row JST. Possibly goes to IC T
 
-V.) 4-pin single row JST. I2C connection to IC Z.
+V.) 4-pin single row JST. Possibly goes to IC Z.
 
 W.) 6-pin single row JST. UART0. Doesn't output anything from the stock Jamboard Jetson module. Tested working from other modules. UART is enabled in the bootloader but disabled in the config. 
 
@@ -143,7 +143,7 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     6.) GND
   
-### R.)Side Panel Buttons
+### R.)Side Panel Buttons.
 
     1.) Power Button
   
@@ -155,9 +155,9 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     5.) GND
   
-### U.) Unknown protocol interface connected to IC T (T doesn't have UART only I2C but pins 2 and 3 do not trace out to the corresponding pins on IC T)
+### U.) Unknown connection to IC T. Assuming it's a comm protocol. Need a logic analyzer.
 
-    1.) VDD_DIG 3.3V (Digital Supply Voltage)
+    1.) Vcc - 3.3V
   
     2.) 
   
@@ -165,9 +165,8 @@ Z.) [Milestone Semiconductor MST9U23T1](assets/MST9U23T1.jpeg). Unable to find a
   
     4.) GND
   
-### V.) Unknown protocol interface connected to IC Z. (Unable to trace pins 2 and 3 as they are somewhere in the BGA under IC Z)
-
-    1.) 5.2V
+### V.) Unknown connection to IC Z. Assuming it's comm protocol. Need a logic analyzer.
+    1.) Vcc - 5.2V
   
     2.)
   
