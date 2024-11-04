@@ -57,7 +57,7 @@ V.) 4-pin single row JST. Possibly goes to IC Z.
 
 W.) 6-pin single row JST. UART0. On the stock TX1 module, UART is enabled in the bootloader but disable in ODMDATA so it doesn't output anything by default.
 
-X.) HDMI Video Out - Confirmed that this is the video output from the Jetson. It connects to the HDMI port here and then passes through it down to the Milestone processor (label Z).
+X.) HDMI Video Out - Confirmed that this is the video output from the Jetson. It connects to the HDMI port here and then passes through it down to the Milestone processor (label Z). Audio is pulled out after this port and sent separately to IC T, the ST Micro audio SoC.
 
 Y.) 2-pin jumper of unknown purpose.
 
